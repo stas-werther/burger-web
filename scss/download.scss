@@ -1,0 +1,18 @@
+.download {
+
+    background-color: #312F30;
+    padding: 60px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 422px;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}

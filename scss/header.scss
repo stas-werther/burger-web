@@ -1,0 +1,39 @@
+.header {
+    padding: 25px 0;
+    position: relative;
+    z-index: 10;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 70px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 28px;
+
+        li {
+            a {
+                text-transform: var(--uppercase);
+                font-size: 14px;
+                opacity: 0.7;
+                transition: opacity 0.3s;
+            }
+
+            a.active {
+                opacity: 1;
+                font-size: 15px;
+                font-weight: 700;
+            }
+
+            a:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}
