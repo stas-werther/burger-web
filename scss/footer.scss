@@ -33,12 +33,12 @@
         opacity: 0.8;
 
         &--email::before {
-            content: url('/images/icons/mail.svg');
+            content: url('../images/icons/mail.svg');
             height: 12px;
         }
 
         &--global::before {
-            content: url('/images/icons/global.svg');
+            content: url('../images/icons/global.svg');
             height: 12px;
         }
     }
